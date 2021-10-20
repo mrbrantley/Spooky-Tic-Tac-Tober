@@ -1,0 +1,28 @@
+h1{
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+}
+
+button{
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.square{
+  height: 150px;
+  width: 150px;
+  border: 2px solid black;
+  font-size: 7rem;
+  text-align: center;
+}
+
+.gameboard{
+  display: flex;
+  width: 500px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
