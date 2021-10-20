@@ -9,8 +9,8 @@ Using git commands from the terminal download the git repository and then downlo
     *Wait some moments until the node modules finish downloading.*
  
       4.    $ yarn start
-      5.    The terminal should begin to run the react server from the local machine and open the game in your browser. *
 
+The terminal should begin to run the react server from the local machine and open the game in your browser. 
 
 This game will be for two users, playing on one device, taking turns. 
 The first user to get 3 Ghosts or 3 Pumpkins in a row wins the game.
