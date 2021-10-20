@@ -67,7 +67,7 @@ class App extends Component {
     let catsGame = this.state.squares.every(value => value !== null)
     return (
       <>
-      <h1>Spooky Tic Tac Toe-ber</h1>
+      <h1>Spooky Tic-Tac-Tober</h1>
       {/*Tags in JSX are evaluated as truthy and nulls are evaluated as falsey*/}
       {this.state.winner && <h3>The winner is {this.state.winner}</h3>}
       {catsGame && this.state.winner===null && <h3>☠️ NO WINNERS! YOU'RE ALL LOSERS! ☠️</h3>}
